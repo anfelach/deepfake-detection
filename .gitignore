@@ -1,4 +1,5 @@
 __pycache__/
 *.pyc
+*.pt
 gcs_cache/
 secrets.txt
