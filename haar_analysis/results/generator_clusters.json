@@ -1,0 +1,18 @@
+{
+  "cluster_1": {
+    "generators": ["deepaction_animatediff", "deepaction_cogvideox5b", "deepaction_stablediffusion",
+                    "dvf_opensora", "dvf_stablediffusion", "dvf_stablevideodiffusion",
+                    "dvf_videocrafter1", "dvf_zeroscope", "waverep_opensoraplan", "waverep_pyramid"],
+    "description": "High JSD — strong spatial artifacts in Haar domain"
+  },
+  "cluster_2": {
+    "generators": ["deepaction_runwayml", "dvf_pika", "dvf_stablevideo",
+                    "waverep_allegro", "waverep_cogvideox15", "waverep_mochi1", "waverep_nova"],
+    "description": "Medium JSD — moderate spatial artifacts"
+  },
+  "cluster_3": {
+    "generators": ["deepaction_veo", "deepaction_videopoet", "dvf_sora",
+                    "waverep_flux", "waverep_sora"],
+    "description": "Low JSD — subtle artifacts, hardest to detect"
+  }
+}
